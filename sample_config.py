@@ -2,15 +2,15 @@ import os
 
 class Config(object):
     # get a token from https://chatbase.com
-    CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "")
+    CHAT_BASE_TOKEN = os.environ.get("CHAT_BASE_TOKEN", "7565686231:AAGQX2WmNI3grhC4vGKYp1II2eWE5ZLsprI")
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7565686231:AAGQX2WmNI3grhC4vGKYp1II2eWE5ZLsprI")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", 21567814))
+    API_HASH = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
     # Get these values from my.telegram.org
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "").split())
+    AUTH_USERS = set(str(x) for x in os.environ.get("AUTH_USERS", "6126688051").split())
     # reg: Procedures
     UTUBE_BOT_USERS = AUTH_USERS
     SUPER_DLBOT_USERS = AUTH_USERS
